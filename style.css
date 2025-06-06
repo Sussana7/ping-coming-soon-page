@@ -1,0 +1,65 @@
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    font-size: 16px;
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.header {
+    gap: 3rem;
+    align-items: center;
+    font-weight: 300;
+}
+
+h1 {
+    color: hsl(0, 0%, 59%);
+}
+
+span {
+    color: hsl(209, 33%, 12%);
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+input[type="email"] {
+  border-radius: 25px;
+  padding: 0.8rem 1.8rem;
+  border-color: hsl(223, 100%, 88%);
+  cursor: pointer;
+}
+
+button {
+  border-radius: 25px;
+  padding: 0.8rem 1.8rem;
+  border-color: hsl(0, 0%, 59%);
+  cursor: pointer;
+  background-color: hsl(223, 87%, 63%);
+  color: hsl(223, 100%, 88%);
+  border: none;
+}
+
+
+.section-image img {
+    width: 100%;
+    max-width: 800px;
+    align-content: center;
+}
