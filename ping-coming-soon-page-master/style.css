@@ -1,0 +1,111 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  font-size: 16px;
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/****** SECTION HEADER ******/
+/* *********************** */
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  font-weight: 300;
+  /* padding-bottom: 2rem; */
+}
+
+.logo-img {
+  align-self: center;
+}
+
+h1 {
+  color: hsl(0, 0%, 59%);
+}
+
+span {
+  color: hsl(209, 33%, 12%);
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 0.8rem;
+}
+
+input[type="email"] {
+  border-radius: 25px;
+  padding: 0.8rem 1.8rem;
+  padding-right: 10rem;
+  border-color: hsl(223, 100%, 88%);
+  cursor: pointer;
+}
+
+button {
+  border-radius: 25px;
+  padding: 0.8rem 1.8rem;
+  border-color: hsl(0, 0%, 59%);
+  cursor: pointer;
+  background-color: hsl(223, 87%, 63%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+}
+
+/****** SECTION IMAGE ******/
+/* ********************** */
+.section-image img {
+  width: 100%;
+  max-width: 800px;
+  align-content: center;
+}
+
+/****** SECTION FOOTER LOGOS ******/
+/* ***************************** */
+.footer-logos {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.footer-logos img {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 0.2rem;
+  /* background-color: hsl(223, 100%, 88%); */
+  color: hsl(223, 87%, 63%);
+  border: 1px solid hsl(223, 100%, 88%);
+  filter: invert(36%) sepia(86%) saturate(749%) hue-rotate(194deg) brightness(93%) contrast(92%);
+}
+
+.copyright {
+  font-weight: 200;
+  margin-top: -3rem;
+  color: hsl(0, 0%, 59%);
+}
+
+/* MEDIA QUERIES FOR MOBILE VIEW */
