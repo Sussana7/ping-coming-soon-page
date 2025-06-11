@@ -13,6 +13,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-size: 16px;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -102,6 +106,12 @@ button {
   filter: invert(36%) sepia(86%) saturate(749%) hue-rotate(194deg) brightness(93%) contrast(92%);
 }
 
+.footer-logos img:hover {
+  background-color: hsl(223, 87%, 63%);
+  filter: invert(36%) sepia(86%) saturate(749%) hue-rotate(194deg) brightness(93%) contrast(92%);
+}
+
+
 .copyright {
   font-weight: 200;
   margin-top: -3rem;
@@ -109,3 +119,24 @@ button {
 }
 
 /* MEDIA QUERIES FOR MOBILE VIEW */
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  main {
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-logos img {
+    /* width: 40px;
+    margin: 10px; */
+  }
+}
