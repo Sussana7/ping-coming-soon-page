@@ -135,4 +135,24 @@ button {
     flex-direction: column;
   }
 
+  .button-container input,
+.button-container button {
+  width: 100%;
+}
+.button-container {
+  gap: 1rem;
+}
+
+}
+
+/* ERROR MESSAGE */
+.error-message {
+  color: hsl(354, 100%, 66%);
+  font-size: 0.75rem;
+  margin-top: 5px;
+  display: none;
+}
+
+input.error {
+  border: 2px solid hsl(354, 100%, 66%);
 }
